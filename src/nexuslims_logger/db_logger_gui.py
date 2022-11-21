@@ -970,6 +970,7 @@ class LogWindow(Toplevel):
 class NoteWindow(Toplevel):
     def __init__(self, parent, is_error=False):
         """
+        This was something I worked on last time. -Jie
         Create and raise a window showing a text input field so users can add
         session note to the current session; the last saved session note will
         gets written to the session log database when user ends the current
