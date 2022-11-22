@@ -326,6 +326,7 @@ class MainApp(Tk):
                                  image=self.log_icon)
         self.log_button.config(fg='black', font=('kDefaultFont',12,'bold'), relief=RAISED)
         # Add button for logging session note by user
+        # I need to pick it up from here --Jie
         self.note_icon = PhotoImage(file=resource_path('note.png'))
         self.note_button = Button(self.button_frame,
                                  text="Add Session Note",
